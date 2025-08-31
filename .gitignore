@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+
+# Virtualenv 
+venv/
+
+
+
+
+# Streamlit and Python cache
+.streamlit/
+*.sqlite3
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Chroma vectorstore directories
+app/agriculture_chroma/
+app/agriculture_chromaV2/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Excel and PDF files (optional, comment out if you want to track these)
+*.xlsx
+*.pdf
+*.docx
+*.txt
